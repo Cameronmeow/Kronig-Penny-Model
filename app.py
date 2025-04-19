@@ -9,10 +9,10 @@ st.title("Kronig-Penney Model Visualizer")
 st.markdown("Numerical solution and band structure for a 1D Kronig-Penney potential.")
 
 # --- Display Local Image ---
-st.sidebar.header("Diagram")
+st.sidebar.header("MM 226 - Supervised Learning Project")
 try:
     img = Image.open("IITB Logo Black (2).jpg")
-    st.sidebar.image(img, caption='Kronig-Penney Diagram', use_column_width=True)
+    st.sidebar.image(img, caption='IIT Bombay' , use_container_width=True)
 except FileNotFoundError:
     st.sidebar.warning("'diagram.png' not found in app folder. Please ensure the image file is present.")
 
